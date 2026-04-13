@@ -1,12 +1,12 @@
 "use client";
 
 import { Plus, ClipboardList } from "lucide-react";
-import Card, { CardContent } from "@mdigital_ui/ui/card";
-import Input from "@mdigital_ui/ui/input";
-import Button from "@mdigital_ui/ui/button";
-import Badge from "@mdigital_ui/ui/badge";
-import Avatar from "@mdigital_ui/ui/avatar";
-import { cn } from "@mdigital_ui/ui";
+import Card, { CardContent } from "@mdigitalcn/uikit/card";
+import Input from "@mdigitalcn/uikit/input";
+import Button from "@mdigitalcn/uikit/button";
+import Badge from "@mdigitalcn/uikit/badge";
+import Avatar from "@mdigitalcn/uikit/avatar";
+import { cn } from "@mdigitalcn/uikit";
 import type { TasksPageProps, TaskPriority, TaskStatus } from "./TasksPage.types";
 
 const priorityColors: Record<TaskPriority, "default" | "info" | "warning" | "error"> = {

@@ -1,12 +1,12 @@
 "use client";
 
 import { Folder, File, Image, FileText, Video, Music, LayoutGrid, List, Upload, FolderPlus, Trash2 } from "lucide-react";
-import Card, { CardContent } from "@mdigital_ui/ui/card";
-import Input from "@mdigital_ui/ui/input";
-import Button from "@mdigital_ui/ui/button";
-import Toggle from "@mdigital_ui/ui/toggle";
-import Checkbox from "@mdigital_ui/ui/checkbox";
-import { cn } from "@mdigital_ui/ui";
+import Card, { CardContent } from "@mdigitalcn/uikit/card";
+import Input from "@mdigitalcn/uikit/input";
+import Button from "@mdigitalcn/uikit/button";
+import Toggle from "@mdigitalcn/uikit/toggle";
+import Checkbox from "@mdigitalcn/uikit/checkbox";
+import { cn } from "@mdigitalcn/uikit";
 import type { FileManagerPageProps, FileType } from "./FileManagerPage.types";
 
 const fileIcons: Record<FileType, React.ReactNode> = {

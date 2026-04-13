@@ -1,11 +1,11 @@
 "use client";
 
 import { PenSquare, MessageSquare } from "lucide-react";
-import Input from "@mdigital_ui/ui/input";
-import Button from "@mdigital_ui/ui/button";
-import Avatar from "@mdigital_ui/ui/avatar";
-import Badge from "@mdigital_ui/ui/badge";
-import { cn } from "@mdigital_ui/ui";
+import Input from "@mdigitalcn/uikit/input";
+import Button from "@mdigitalcn/uikit/button";
+import Avatar from "@mdigitalcn/uikit/avatar";
+import Badge from "@mdigitalcn/uikit/badge";
+import { cn } from "@mdigitalcn/uikit";
 import type { InboxPageProps } from "./InboxPage.types";
 
 export default function InboxPage({

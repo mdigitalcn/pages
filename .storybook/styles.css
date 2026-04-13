@@ -1,10 +1,10 @@
 /* Import uikit's full CSS (includes @import "tailwindcss", @theme tokens, dark mode, utilities) */
-@import "../../mdigital_uikit/src/styles/global.css";
+@import "../../mdigitalcn_uikit/src/styles/global.css";
 
 /* Theme files */
-@import "../../mdigital_uikit/src/styles/themes/light.css";
-@import "../../mdigital_uikit/src/styles/themes/dark.css";
+@import "../../mdigitalcn_uikit/src/styles/themes/light.css";
+@import "../../mdigitalcn_uikit/src/styles/themes/dark.css";
 
 /* Tell Tailwind to also scan pages source files for utility classes */
 @source "../**/*.tsx";
-@source "../../mdigital_uikit/src/**/*.tsx";
+@source "../../mdigitalcn_uikit/src/**/*.tsx";

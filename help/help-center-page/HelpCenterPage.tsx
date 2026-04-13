@@ -1,10 +1,10 @@
 "use client";
 
 import { Search } from "lucide-react";
-import Card, { CardContent } from "@mdigital_ui/ui/card";
-import Input from "@mdigital_ui/ui/input";
-import Accordion from "@mdigital_ui/ui/accordion";
-import { cn } from "@mdigital_ui/ui";
+import Card, { CardContent } from "@mdigitalcn/uikit/card";
+import Input from "@mdigitalcn/uikit/input";
+import Accordion from "@mdigitalcn/uikit/accordion";
+import { cn } from "@mdigitalcn/uikit";
 import type { HelpCenterPageProps } from "./HelpCenterPage.types";
 
 export default function HelpCenterPage({

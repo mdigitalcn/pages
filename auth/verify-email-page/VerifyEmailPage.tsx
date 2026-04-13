@@ -1,8 +1,8 @@
 "use client";
 import { Mail, CheckCircle2 } from "lucide-react";
-import Card, { CardContent } from "@mdigital_ui/ui/card";
-import Button from "@mdigital_ui/ui/button";
-import Link from "@mdigital_ui/ui/link";
+import Card, { CardContent } from "@mdigitalcn/uikit/card";
+import Button from "@mdigitalcn/uikit/button";
+import Link from "@mdigitalcn/uikit/link";
 import type { VerifyEmailPageProps } from "./VerifyEmailPage.types";
 
 export default function VerifyEmailPage({ logo, email, verified, onResend, onContinue, loading }: VerifyEmailPageProps) {

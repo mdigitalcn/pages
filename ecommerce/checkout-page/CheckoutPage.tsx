@@ -1,11 +1,11 @@
 "use client";
 
 import { ArrowLeft, ShieldCheck, Package } from "lucide-react";
-import Card, { CardContent, CardHeader, CardTitle } from "@mdigital_ui/ui/card";
-import Button from "@mdigital_ui/ui/button";
-import Divider from "@mdigital_ui/ui/divider";
-import Stepper from "@mdigital_ui/ui/stepper";
-import { cn } from "@mdigital_ui/ui";
+import Card, { CardContent, CardHeader, CardTitle } from "@mdigitalcn/uikit/card";
+import Button from "@mdigitalcn/uikit/button";
+import Divider from "@mdigitalcn/uikit/divider";
+import Stepper from "@mdigitalcn/uikit/stepper";
+import { cn } from "@mdigitalcn/uikit";
 import type { CheckoutPageProps } from "./CheckoutPage.types";
 
 export default function CheckoutPage({

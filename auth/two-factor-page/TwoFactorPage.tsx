@@ -2,11 +2,11 @@
 
 import { useState } from "react";
 import { ShieldCheck, Smartphone, Mail } from "lucide-react";
-import Card, { CardContent } from "@mdigital_ui/ui/card";
-import InputOtp from "@mdigital_ui/ui/input-otp";
-import Button from "@mdigital_ui/ui/button";
-import Link from "@mdigital_ui/ui/link";
-import Notification from "@mdigital_ui/ui/notification";
+import Card, { CardContent } from "@mdigitalcn/uikit/card";
+import InputOtp from "@mdigitalcn/uikit/input-otp";
+import Button from "@mdigitalcn/uikit/button";
+import Link from "@mdigitalcn/uikit/link";
+import Notification from "@mdigitalcn/uikit/notification";
 import type { TwoFactorPageProps } from "./TwoFactorPage.types";
 
 const methodLabels = {

@@ -2,9 +2,9 @@
 
 import { useEffect, useState } from "react";
 import { Wrench, Bell } from "lucide-react";
-import Input from "@mdigital_ui/ui/input";
-import Button from "@mdigital_ui/ui/button";
-import Notification from "@mdigital_ui/ui/notification";
+import Input from "@mdigitalcn/uikit/input";
+import Button from "@mdigitalcn/uikit/button";
+import Notification from "@mdigitalcn/uikit/notification";
 import type { MaintenancePageProps } from "./MaintenancePage.types";
 
 function useCountdown(target: string | undefined) {

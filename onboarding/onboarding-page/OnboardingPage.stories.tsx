@@ -23,7 +23,7 @@ export const Default: Story = {
     steps: [
       {
         id: "welcome",
-        title: "Welcome to MDigital",
+        title: "Welcome to mdigitalcn",
         description: "Let's get your workspace set up in a few quick steps",
         icon: <span>👋</span>,
         content: <div className="text-center text-text-secondary text-sm">We're glad to have you here!</div>,

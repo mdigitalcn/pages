@@ -2,13 +2,13 @@
 
 import { useRef, useState } from "react";
 import { Camera, KeyRound, Trash2, Save } from "lucide-react";
-import Card, { CardContent, CardHeader, CardTitle } from "@mdigital_ui/ui/card";
-import Avatar from "@mdigital_ui/ui/avatar";
-import Input from "@mdigital_ui/ui/input";
-import Textarea from "@mdigital_ui/ui/textarea";
-import Button from "@mdigital_ui/ui/button";
-import Divider from "@mdigital_ui/ui/divider";
-import Notification from "@mdigital_ui/ui/notification";
+import Card, { CardContent, CardHeader, CardTitle } from "@mdigitalcn/uikit/card";
+import Avatar from "@mdigitalcn/uikit/avatar";
+import Input from "@mdigitalcn/uikit/input";
+import Textarea from "@mdigitalcn/uikit/textarea";
+import Button from "@mdigitalcn/uikit/button";
+import Divider from "@mdigitalcn/uikit/divider";
+import Notification from "@mdigitalcn/uikit/notification";
 import type { ProfilePageProps, ProfileData } from "./ProfilePage.types";
 
 export default function ProfilePage({

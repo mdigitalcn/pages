@@ -1,8 +1,8 @@
 "use client";
 import { Activity } from "lucide-react";
-import Card, { CardContent, CardHeader, CardTitle } from "@mdigital_ui/ui/card";
-import Badge from "@mdigital_ui/ui/badge";
-import { cn } from "@mdigital_ui/ui";
+import Card, { CardContent, CardHeader, CardTitle } from "@mdigitalcn/uikit/card";
+import Badge from "@mdigitalcn/uikit/badge";
+import { cn } from "@mdigitalcn/uikit";
 import type { OverviewPageProps } from "./OverviewPage.types";
 
 export default function OverviewPage({ title = "Dashboard", greeting, stats, charts, recentActivity, quickActions, className }: OverviewPageProps) {

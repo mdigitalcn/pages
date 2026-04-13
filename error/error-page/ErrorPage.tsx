@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { AlertTriangle, ArrowLeft, RotateCcw, Home, ChevronDown, ChevronUp, LifeBuoy } from "lucide-react";
-import Button from "@mdigital_ui/ui/button";
+import Button from "@mdigitalcn/uikit/button";
 import type { ErrorPageProps } from "./ErrorPage.types";
 
 export default function ErrorPage({

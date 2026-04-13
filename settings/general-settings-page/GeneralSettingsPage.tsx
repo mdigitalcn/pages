@@ -1,9 +1,9 @@
 "use client";
 
 import { Save, AlertTriangle } from "lucide-react";
-import Button from "@mdigital_ui/ui/button";
-import Notification from "@mdigital_ui/ui/notification";
-import { cn } from "@mdigital_ui/ui";
+import Button from "@mdigitalcn/uikit/button";
+import Notification from "@mdigitalcn/uikit/notification";
+import { cn } from "@mdigitalcn/uikit";
 import type { GeneralSettingsPageProps } from "./GeneralSettingsPage.types";
 
 export default function GeneralSettingsPage({

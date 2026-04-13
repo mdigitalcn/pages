@@ -2,11 +2,11 @@
 
 import { useState } from "react";
 import { Clock } from "lucide-react";
-import Card, { CardContent } from "@mdigital_ui/ui/card";
-import InputPassword from "@mdigital_ui/ui/input-password";
-import Button from "@mdigital_ui/ui/button";
-import Link from "@mdigital_ui/ui/link";
-import Notification from "@mdigital_ui/ui/notification";
+import Card, { CardContent } from "@mdigitalcn/uikit/card";
+import InputPassword from "@mdigitalcn/uikit/input-password";
+import Button from "@mdigitalcn/uikit/button";
+import Link from "@mdigitalcn/uikit/link";
+import Notification from "@mdigitalcn/uikit/notification";
 import type { ResetPasswordPageProps } from "./ResetPasswordPage.types";
 
 export default function ResetPasswordPage({

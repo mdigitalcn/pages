@@ -2,7 +2,7 @@ import type { StorybookConfig } from "@storybook/react-vite";
 import tailwindcss from "@tailwindcss/postcss";
 import path from "path";
 
-const uikitSrc = path.resolve(__dirname, "../../mdigital_uikit/src");
+const uikitSrc = path.resolve(__dirname, "../../mdigitalcn_uikit/src");
 
 const config: StorybookConfig = {
   stories: ["../**/*.stories.@(ts|tsx)"],
@@ -22,7 +22,7 @@ const config: StorybookConfig = {
         ...config.resolve,
         alias: {
           ...config.resolve?.alias,
-          "@mdigital_ui/ui": uikitSrc,
+          "@mdigitalcn/uikit": uikitSrc,
         },
       },
       css: {

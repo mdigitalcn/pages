@@ -1,10 +1,10 @@
 "use client";
 
 import { Save } from "lucide-react";
-import Card, { CardContent, CardHeader, CardTitle } from "@mdigital_ui/ui/card";
-import Switch from "@mdigital_ui/ui/switch";
-import Button from "@mdigital_ui/ui/button";
-import Notification from "@mdigital_ui/ui/notification";
+import Card, { CardContent, CardHeader, CardTitle } from "@mdigitalcn/uikit/card";
+import Switch from "@mdigitalcn/uikit/switch";
+import Button from "@mdigitalcn/uikit/button";
+import Notification from "@mdigitalcn/uikit/notification";
 import type { NotificationsPageProps, NotificationChannel } from "./NotificationsPage.types";
 
 function ChannelTable({

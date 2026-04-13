@@ -1,13 +1,13 @@
 "use client";
 
 import { Plus, Pencil, Trash2, LogIn, Upload, Send, Pin, Download } from "lucide-react";
-import Card, { CardContent } from "@mdigital_ui/ui/card";
-import Input from "@mdigital_ui/ui/input";
-import Button from "@mdigital_ui/ui/button";
-import Avatar from "@mdigital_ui/ui/avatar";
-import Badge from "@mdigital_ui/ui/badge";
-import Timeline from "@mdigital_ui/ui/timeline";
-import { cn } from "@mdigital_ui/ui";
+import Card, { CardContent } from "@mdigitalcn/uikit/card";
+import Input from "@mdigitalcn/uikit/input";
+import Button from "@mdigitalcn/uikit/button";
+import Avatar from "@mdigitalcn/uikit/avatar";
+import Badge from "@mdigitalcn/uikit/badge";
+import Timeline from "@mdigitalcn/uikit/timeline";
+import { cn } from "@mdigitalcn/uikit";
 import type { ActivityLogPageProps, ActivityType } from "./ActivityLogPage.types";
 
 const typeIcons: Record<ActivityType, React.ReactNode> = {

@@ -2,8 +2,8 @@
 
 import { useState } from "react";
 import { Search, ArrowLeft, Home, FileQuestion } from "lucide-react";
-import Button from "@mdigital_ui/ui/button";
-import Input from "@mdigital_ui/ui/input";
+import Button from "@mdigitalcn/uikit/button";
+import Input from "@mdigitalcn/uikit/input";
 import type { NotFoundPageProps } from "./NotFoundPage.types";
 
 export default function NotFoundPage({

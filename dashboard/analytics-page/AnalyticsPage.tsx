@@ -1,10 +1,10 @@
 "use client";
 
 import { Download } from "lucide-react";
-import Card, { CardContent, CardHeader, CardTitle } from "@mdigital_ui/ui/card";
-import Badge from "@mdigital_ui/ui/badge";
-import Button from "@mdigital_ui/ui/button";
-import { cn } from "@mdigital_ui/ui";
+import Card, { CardContent, CardHeader, CardTitle } from "@mdigitalcn/uikit/card";
+import Badge from "@mdigitalcn/uikit/badge";
+import Button from "@mdigitalcn/uikit/button";
+import { cn } from "@mdigitalcn/uikit";
 import type { AnalyticsPageProps } from "./AnalyticsPage.types";
 
 export default function AnalyticsPage({

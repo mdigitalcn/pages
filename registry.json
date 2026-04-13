@@ -6,374 +6,776 @@
       "displayName": "Activity Log Page",
       "description": "Account activity timeline with filters, search, export, and user avatars",
       "category": "account",
-      "tags": ["activity", "audit", "log", "timeline"],
+      "tags": [
+        "activity",
+        "audit",
+        "log",
+        "timeline"
+      ],
       "path": "account/activity-log-page",
-      "files": ["ActivityLogPage.tsx", "ActivityLogPage.types.ts", "index.ts"],
+      "files": [
+        "ActivityLogPage.tsx",
+        "ActivityLogPage.types.ts",
+        "index.ts"
+      ],
       "dependencies": [],
-      "peerDependencies": {}
+      "peerDependencies": {
+        "lucide-react": "^0.576.0",
+        "@mdigitalcn/uikit": "*"
+      }
     },
     {
       "name": "api-keys-page",
       "displayName": "API Keys Page",
       "description": "API key management with scopes, status badges, clipboard copy, regenerate and revoke actions",
       "category": "account",
-      "tags": ["api", "keys", "developer", "integrations"],
+      "tags": [
+        "api",
+        "keys",
+        "developer",
+        "integrations"
+      ],
       "path": "account/api-keys-page",
-      "files": ["ApiKeysPage.tsx", "ApiKeysPage.types.ts", "index.ts"],
+      "files": [
+        "ApiKeysPage.tsx",
+        "ApiKeysPage.types.ts",
+        "index.ts"
+      ],
       "dependencies": [],
-      "peerDependencies": {}
+      "peerDependencies": {
+        "lucide-react": "^0.576.0",
+        "@mdigitalcn/uikit": "*"
+      }
     },
     {
       "name": "forgot-password-page",
       "displayName": "Forgot Password Page",
       "description": "Password reset request form with email input and success state",
       "category": "auth",
-      "tags": ["auth", "password", "reset"],
+      "tags": [
+        "auth",
+        "password",
+        "reset"
+      ],
       "path": "auth/forgot-password-page",
-      "files": ["ForgotPasswordPage.tsx", "ForgotPasswordPage.types.ts", "index.ts"],
+      "files": [
+        "ForgotPasswordPage.tsx",
+        "ForgotPasswordPage.types.ts",
+        "index.ts"
+      ],
       "dependencies": [],
-      "peerDependencies": {}
+      "peerDependencies": {
+        "lucide-react": "^0.576.0",
+        "@mdigitalcn/uikit": "*"
+      }
     },
     {
       "name": "login-page",
       "displayName": "Login Page",
       "description": "Sign-in form with zod validation, social login, remember me, and error handling",
       "category": "auth",
-      "tags": ["auth", "login", "signin"],
+      "tags": [
+        "auth",
+        "login",
+        "signin"
+      ],
       "path": "auth/login-page",
-      "files": ["LoginPage.tsx", "LoginPage.types.ts", "index.ts"],
-      "dependencies": ["react-hook-form", "@hookform/resolvers", "zod"],
-      "peerDependencies": {}
+      "files": [
+        "LoginPage.tsx",
+        "LoginPage.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "react-hook-form": "*",
+        "@hookform/resolvers": "*",
+        "zod": "*",
+        "lucide-react": "^0.576.0",
+        "@mdigitalcn/uikit": "*"
+      }
     },
     {
       "name": "register-page",
       "displayName": "Register Page",
       "description": "Sign-up form with zod validation, password confirmation, and social signup",
       "category": "auth",
-      "tags": ["auth", "register", "signup"],
+      "tags": [
+        "auth",
+        "register",
+        "signup"
+      ],
       "path": "auth/register-page",
-      "files": ["RegisterPage.tsx", "RegisterPage.types.ts", "index.ts"],
-      "dependencies": ["react-hook-form", "@hookform/resolvers", "zod"],
-      "peerDependencies": {}
+      "files": [
+        "RegisterPage.tsx",
+        "RegisterPage.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "react-hook-form": "*",
+        "@hookform/resolvers": "*",
+        "zod": "*",
+        "lucide-react": "^0.576.0",
+        "@mdigitalcn/uikit": "*"
+      }
     },
     {
       "name": "reset-password-page",
       "displayName": "Reset Password Page",
       "description": "Set new password form with token expiry handling and success state",
       "category": "auth",
-      "tags": ["auth", "password", "reset"],
+      "tags": [
+        "auth",
+        "password",
+        "reset"
+      ],
       "path": "auth/reset-password-page",
-      "files": ["ResetPasswordPage.tsx", "ResetPasswordPage.types.ts", "index.ts"],
+      "files": [
+        "ResetPasswordPage.tsx",
+        "ResetPasswordPage.types.ts",
+        "index.ts"
+      ],
       "dependencies": [],
-      "peerDependencies": {}
+      "peerDependencies": {
+        "lucide-react": "^0.576.0",
+        "@mdigitalcn/uikit": "*"
+      }
     },
     {
       "name": "two-factor-page",
       "displayName": "Two Factor Page",
       "description": "2FA verification with OTP input supporting authenticator, SMS, and email methods",
       "category": "auth",
-      "tags": ["auth", "2fa", "otp", "security"],
+      "tags": [
+        "auth",
+        "2fa",
+        "otp",
+        "security"
+      ],
       "path": "auth/two-factor-page",
-      "files": ["TwoFactorPage.tsx", "TwoFactorPage.types.ts", "index.ts"],
+      "files": [
+        "TwoFactorPage.tsx",
+        "TwoFactorPage.types.ts",
+        "index.ts"
+      ],
       "dependencies": [],
-      "peerDependencies": {}
+      "peerDependencies": {
+        "lucide-react": "^0.576.0",
+        "@mdigitalcn/uikit": "*"
+      }
     },
     {
       "name": "verify-email-page",
       "displayName": "Verify Email Page",
       "description": "Email verification status page with resend option and verified state",
       "category": "auth",
-      "tags": ["auth", "email", "verify"],
+      "tags": [
+        "auth",
+        "email",
+        "verify"
+      ],
       "path": "auth/verify-email-page",
-      "files": ["VerifyEmailPage.tsx", "VerifyEmailPage.types.ts", "index.ts"],
+      "files": [
+        "VerifyEmailPage.tsx",
+        "VerifyEmailPage.types.ts",
+        "index.ts"
+      ],
       "dependencies": [],
-      "peerDependencies": {}
+      "peerDependencies": {
+        "lucide-react": "^0.576.0",
+        "@mdigitalcn/uikit": "*"
+      }
     },
     {
       "name": "calendar-page",
       "displayName": "Calendar Page",
       "description": "Calendar layout with pluggable calendar component, events sidebar, and view toggle",
       "category": "calendar",
-      "tags": ["calendar", "events", "schedule"],
+      "tags": [
+        "calendar",
+        "events",
+        "schedule"
+      ],
       "path": "calendar/calendar-page",
-      "files": ["CalendarPage.tsx", "CalendarPage.types.ts", "index.ts"],
+      "files": [
+        "CalendarPage.tsx",
+        "CalendarPage.types.ts",
+        "index.ts"
+      ],
       "dependencies": [],
-      "peerDependencies": {}
+      "peerDependencies": {
+        "lucide-react": "^0.576.0",
+        "@mdigitalcn/uikit": "*"
+      }
     },
     {
       "name": "contacts-page",
       "displayName": "Contacts Page",
       "description": "CRM contact list with grid/table views, status badges, avatars, search, import/export, and empty state",
       "category": "crm",
-      "tags": ["crm", "contacts", "list", "table"],
+      "tags": [
+        "crm",
+        "contacts",
+        "list",
+        "table"
+      ],
       "path": "crm/contacts-page",
-      "files": ["ContactsPage.tsx", "ContactsPage.types.ts", "index.ts"],
+      "files": [
+        "ContactsPage.tsx",
+        "ContactsPage.types.ts",
+        "index.ts"
+      ],
       "dependencies": [],
-      "peerDependencies": {}
+      "peerDependencies": {
+        "lucide-react": "^0.576.0",
+        "@mdigitalcn/uikit": "*"
+      }
     },
     {
       "name": "pipeline-page",
       "displayName": "Pipeline Page",
       "description": "Kanban-style CRM pipeline with horizontal scrolling stages and deal values",
       "category": "crm",
-      "tags": ["crm", "pipeline", "deals", "kanban"],
+      "tags": [
+        "crm",
+        "pipeline",
+        "deals",
+        "kanban"
+      ],
       "path": "crm/pipeline-page",
-      "files": ["PipelinePage.tsx", "PipelinePage.types.ts", "index.ts"],
+      "files": [
+        "PipelinePage.tsx",
+        "PipelinePage.types.ts",
+        "index.ts"
+      ],
       "dependencies": [],
-      "peerDependencies": {}
+      "peerDependencies": {
+        "lucide-react": "^0.576.0",
+        "@mdigitalcn/uikit": "*"
+      }
     },
     {
       "name": "analytics-page",
       "displayName": "Analytics Page",
       "description": "Analytics dashboard with stat cards, primary/secondary chart areas, breakdown table, and export",
       "category": "dashboard",
-      "tags": ["dashboard", "analytics", "charts", "metrics"],
+      "tags": [
+        "dashboard",
+        "analytics",
+        "charts",
+        "metrics"
+      ],
       "path": "dashboard/analytics-page",
-      "files": ["AnalyticsPage.tsx", "AnalyticsPage.types.ts", "index.ts"],
+      "files": [
+        "AnalyticsPage.tsx",
+        "AnalyticsPage.types.ts",
+        "index.ts"
+      ],
       "dependencies": [],
-      "peerDependencies": {}
+      "peerDependencies": {
+        "lucide-react": "^0.576.0",
+        "@mdigitalcn/uikit": "*"
+      }
     },
     {
       "name": "overview-page",
       "displayName": "Overview Page",
       "description": "Dashboard overview with stat cards, change badges, charts grid, and recent activity",
       "category": "dashboard",
-      "tags": ["dashboard", "overview", "stats"],
+      "tags": [
+        "dashboard",
+        "overview",
+        "stats"
+      ],
       "path": "dashboard/overview-page",
-      "files": ["OverviewPage.tsx", "OverviewPage.types.ts", "index.ts"],
+      "files": [
+        "OverviewPage.tsx",
+        "OverviewPage.types.ts",
+        "index.ts"
+      ],
       "dependencies": [],
-      "peerDependencies": {}
+      "peerDependencies": {
+        "lucide-react": "^0.576.0",
+        "@mdigitalcn/uikit": "*"
+      }
     },
     {
       "name": "checkout-page",
       "displayName": "Checkout Page",
       "description": "Multi-step checkout with stepper, order summary, shipping/payment forms, and sticky sidebar",
       "category": "ecommerce",
-      "tags": ["ecommerce", "checkout", "cart", "payment"],
+      "tags": [
+        "ecommerce",
+        "checkout",
+        "cart",
+        "payment"
+      ],
       "path": "ecommerce/checkout-page",
-      "files": ["CheckoutPage.tsx", "CheckoutPage.types.ts", "index.ts"],
+      "files": [
+        "CheckoutPage.tsx",
+        "CheckoutPage.types.ts",
+        "index.ts"
+      ],
       "dependencies": [],
-      "peerDependencies": {}
+      "peerDependencies": {
+        "lucide-react": "^0.576.0",
+        "@mdigitalcn/uikit": "*"
+      }
     },
     {
       "name": "orders-page",
       "displayName": "Orders Page",
       "description": "Order management table with status badges, search, filters, date range, and export",
       "category": "ecommerce",
-      "tags": ["ecommerce", "orders", "table"],
+      "tags": [
+        "ecommerce",
+        "orders",
+        "table"
+      ],
       "path": "ecommerce/orders-page",
-      "files": ["OrdersPage.tsx", "OrdersPage.types.ts", "index.ts"],
+      "files": [
+        "OrdersPage.tsx",
+        "OrdersPage.types.ts",
+        "index.ts"
+      ],
       "dependencies": [],
-      "peerDependencies": {}
+      "peerDependencies": {
+        "lucide-react": "^0.576.0",
+        "@mdigitalcn/uikit": "*"
+      }
     },
     {
       "name": "products-page",
       "displayName": "Products Page",
       "description": "Product catalog with grid/table views, status badges, inventory tracking, ratings, and empty state",
       "category": "ecommerce",
-      "tags": ["ecommerce", "products", "catalog", "inventory"],
+      "tags": [
+        "ecommerce",
+        "products",
+        "catalog",
+        "inventory"
+      ],
       "path": "ecommerce/products-page",
-      "files": ["ProductsPage.tsx", "ProductsPage.types.ts", "index.ts"],
+      "files": [
+        "ProductsPage.tsx",
+        "ProductsPage.types.ts",
+        "index.ts"
+      ],
       "dependencies": [],
-      "peerDependencies": {}
+      "peerDependencies": {
+        "lucide-react": "^0.576.0",
+        "@mdigitalcn/uikit": "*"
+      }
     },
     {
       "name": "error-page",
       "displayName": "Error Page",
       "description": "Error page with SVG illustration, collapsible technical details, support link, and retry actions",
       "category": "error",
-      "tags": ["error", "500", "403"],
+      "tags": [
+        "error",
+        "500",
+        "403"
+      ],
       "path": "error/error-page",
-      "files": ["ErrorPage.tsx", "ErrorPage.types.ts", "index.ts"],
+      "files": [
+        "ErrorPage.tsx",
+        "ErrorPage.types.ts",
+        "index.ts"
+      ],
       "dependencies": [],
-      "peerDependencies": {}
+      "peerDependencies": {
+        "lucide-react": "^0.576.0",
+        "@mdigitalcn/uikit": "*"
+      }
     },
     {
       "name": "maintenance-page",
       "displayName": "Maintenance Page",
       "description": "Maintenance page with SVG illustration, countdown timer, status updates, and email subscribe",
       "category": "error",
-      "tags": ["error", "maintenance", "downtime", "countdown"],
+      "tags": [
+        "error",
+        "maintenance",
+        "downtime",
+        "countdown"
+      ],
       "path": "error/maintenance-page",
-      "files": ["MaintenancePage.tsx", "MaintenancePage.types.ts", "index.ts"],
+      "files": [
+        "MaintenancePage.tsx",
+        "MaintenancePage.types.ts",
+        "index.ts"
+      ],
       "dependencies": [],
-      "peerDependencies": {}
+      "peerDependencies": {
+        "lucide-react": "^0.576.0",
+        "@mdigitalcn/uikit": "*"
+      }
     },
     {
       "name": "not-found-page",
       "displayName": "Not Found Page",
       "description": "404 page with SVG illustration, search input, and suggested page links",
       "category": "error",
-      "tags": ["error", "404", "not-found"],
+      "tags": [
+        "error",
+        "404",
+        "not-found"
+      ],
       "path": "error/not-found-page",
-      "files": ["NotFoundPage.tsx", "NotFoundPage.types.ts", "index.ts"],
+      "files": [
+        "NotFoundPage.tsx",
+        "NotFoundPage.types.ts",
+        "index.ts"
+      ],
       "dependencies": [],
-      "peerDependencies": {}
+      "peerDependencies": {
+        "lucide-react": "^0.576.0",
+        "@mdigitalcn/uikit": "*"
+      }
     },
     {
       "name": "file-manager-page",
       "displayName": "File Manager Page",
       "description": "File browser with grid/list views, multi-select, breadcrumbs, upload, and folder navigation",
       "category": "file-management",
-      "tags": ["files", "upload", "browser", "folders"],
+      "tags": [
+        "files",
+        "upload",
+        "browser",
+        "folders"
+      ],
       "path": "file-management/file-manager-page",
-      "files": ["FileManagerPage.tsx", "FileManagerPage.types.ts", "index.ts"],
+      "files": [
+        "FileManagerPage.tsx",
+        "FileManagerPage.types.ts",
+        "index.ts"
+      ],
       "dependencies": [],
-      "peerDependencies": {}
+      "peerDependencies": {
+        "lucide-react": "^0.576.0",
+        "@mdigitalcn/uikit": "*"
+      }
     },
     {
       "name": "invoices-page",
       "displayName": "Invoices Page",
       "description": "Invoice list with summary cards, status badges, search, and clickable rows",
       "category": "finance",
-      "tags": ["finance", "invoices", "billing"],
+      "tags": [
+        "finance",
+        "invoices",
+        "billing"
+      ],
       "path": "finance/invoices-page",
-      "files": ["InvoicesPage.tsx", "InvoicesPage.types.ts", "index.ts"],
+      "files": [
+        "InvoicesPage.tsx",
+        "InvoicesPage.types.ts",
+        "index.ts"
+      ],
       "dependencies": [],
-      "peerDependencies": {}
+      "peerDependencies": {
+        "lucide-react": "^0.576.0",
+        "@mdigitalcn/uikit": "*"
+      }
     },
     {
       "name": "help-center-page",
       "displayName": "Help Center Page",
       "description": "Help center with hero search, topic categories, FAQ accordion, and contact CTA",
       "category": "help",
-      "tags": ["help", "faq", "support", "knowledge-base"],
+      "tags": [
+        "help",
+        "faq",
+        "support",
+        "knowledge-base"
+      ],
       "path": "help/help-center-page",
-      "files": ["HelpCenterPage.tsx", "HelpCenterPage.types.ts", "index.ts"],
+      "files": [
+        "HelpCenterPage.tsx",
+        "HelpCenterPage.types.ts",
+        "index.ts"
+      ],
       "dependencies": [],
-      "peerDependencies": {}
+      "peerDependencies": {
+        "lucide-react": "^0.576.0",
+        "@mdigitalcn/uikit": "*"
+      }
     },
     {
       "name": "employee-directory-page",
       "displayName": "Employee Directory Page",
       "description": "Employee directory with grid/table views, status indicators, department badges, and empty state",
       "category": "hrm",
-      "tags": ["hrm", "employees", "directory", "team"],
+      "tags": [
+        "hrm",
+        "employees",
+        "directory",
+        "team"
+      ],
       "path": "hrm/employee-directory-page",
-      "files": ["EmployeeDirectoryPage.tsx", "EmployeeDirectoryPage.types.ts", "index.ts"],
+      "files": [
+        "EmployeeDirectoryPage.tsx",
+        "EmployeeDirectoryPage.types.ts",
+        "index.ts"
+      ],
       "dependencies": [],
-      "peerDependencies": {}
+      "peerDependencies": {
+        "lucide-react": "^0.576.0",
+        "@mdigitalcn/uikit": "*"
+      }
     },
     {
       "name": "coming-soon-page",
       "displayName": "Coming Soon Page",
       "description": "Pre-launch page with countdown timer, email subscribe, and social links",
       "category": "marketing",
-      "tags": ["marketing", "coming-soon", "launch", "countdown"],
+      "tags": [
+        "marketing",
+        "coming-soon",
+        "launch",
+        "countdown"
+      ],
       "path": "marketing/coming-soon-page",
-      "files": ["ComingSoonPage.tsx", "ComingSoonPage.types.ts", "index.ts"],
+      "files": [
+        "ComingSoonPage.tsx",
+        "ComingSoonPage.types.ts",
+        "index.ts"
+      ],
       "dependencies": [],
-      "peerDependencies": {}
+      "peerDependencies": {
+        "lucide-react": "^0.576.0",
+        "@mdigitalcn/uikit": "*"
+      }
     },
     {
       "name": "pricing-page",
       "displayName": "Pricing Page",
       "description": "SaaS pricing tiers with feature comparison, popular badge, billing toggle, and FAQ",
       "category": "marketing",
-      "tags": ["marketing", "pricing", "plans", "saas"],
+      "tags": [
+        "marketing",
+        "pricing",
+        "plans",
+        "saas"
+      ],
       "path": "marketing/pricing-page",
-      "files": ["PricingPage.tsx", "PricingPage.types.ts", "index.ts"],
+      "files": [
+        "PricingPage.tsx",
+        "PricingPage.types.ts",
+        "index.ts"
+      ],
       "dependencies": [],
-      "peerDependencies": {}
+      "peerDependencies": {
+        "lucide-react": "^0.576.0",
+        "@mdigitalcn/uikit": "*"
+      }
     },
     {
       "name": "inbox-page",
       "displayName": "Inbox Page",
       "description": "Messaging inbox with conversation list, online status, unread badges, and detail panel",
       "category": "messaging",
-      "tags": ["messaging", "inbox", "chat", "conversations"],
+      "tags": [
+        "messaging",
+        "inbox",
+        "chat",
+        "conversations"
+      ],
       "path": "messaging/inbox-page",
-      "files": ["InboxPage.tsx", "InboxPage.types.ts", "index.ts"],
+      "files": [
+        "InboxPage.tsx",
+        "InboxPage.types.ts",
+        "index.ts"
+      ],
       "dependencies": [],
-      "peerDependencies": {}
+      "peerDependencies": {
+        "lucide-react": "^0.576.0",
+        "@mdigitalcn/uikit": "*"
+      }
     },
     {
       "name": "onboarding-page",
       "displayName": "Onboarding Page",
       "description": "Multi-step onboarding wizard with progress bar, step dots, and skip option",
       "category": "onboarding",
-      "tags": ["onboarding", "wizard", "setup", "welcome"],
+      "tags": [
+        "onboarding",
+        "wizard",
+        "setup",
+        "welcome"
+      ],
       "path": "onboarding/onboarding-page",
-      "files": ["OnboardingPage.tsx", "OnboardingPage.types.ts", "index.ts"],
+      "files": [
+        "OnboardingPage.tsx",
+        "OnboardingPage.types.ts",
+        "index.ts"
+      ],
       "dependencies": [],
-      "peerDependencies": {}
+      "peerDependencies": {
+        "lucide-react": "^0.576.0",
+        "@mdigitalcn/uikit": "*"
+      }
     },
     {
       "name": "kanban-page",
       "displayName": "Kanban Page",
       "description": "Kanban board with colored columns, count badges, and horizontal scrolling",
       "category": "project",
-      "tags": ["project", "kanban", "board", "tasks"],
+      "tags": [
+        "project",
+        "kanban",
+        "board",
+        "tasks"
+      ],
       "path": "project/kanban-page",
-      "files": ["KanbanPage.tsx", "KanbanPage.types.ts", "index.ts"],
+      "files": [
+        "KanbanPage.tsx",
+        "KanbanPage.types.ts",
+        "index.ts"
+      ],
       "dependencies": [],
-      "peerDependencies": {}
+      "peerDependencies": {
+        "lucide-react": "^0.576.0",
+        "@mdigitalcn/uikit": "*"
+      }
     },
     {
       "name": "tasks-page",
       "displayName": "Tasks Page",
       "description": "Task list table with priority/status badges, assignee avatars, tags, and due dates",
       "category": "project",
-      "tags": ["project", "tasks", "todo", "table"],
+      "tags": [
+        "project",
+        "tasks",
+        "todo",
+        "table"
+      ],
       "path": "project/tasks-page",
-      "files": ["TasksPage.tsx", "TasksPage.types.ts", "index.ts"],
+      "files": [
+        "TasksPage.tsx",
+        "TasksPage.types.ts",
+        "index.ts"
+      ],
       "dependencies": [],
-      "peerDependencies": {}
+      "peerDependencies": {
+        "lucide-react": "^0.576.0",
+        "@mdigitalcn/uikit": "*"
+      }
     },
     {
       "name": "billing-page",
       "displayName": "Billing Page",
       "description": "Subscription billing with plan details, usage meters, payment methods, and invoice history",
       "category": "settings",
-      "tags": ["settings", "billing", "subscription", "payments"],
+      "tags": [
+        "settings",
+        "billing",
+        "subscription",
+        "payments"
+      ],
       "path": "settings/billing-page",
-      "files": ["BillingPage.tsx", "BillingPage.types.ts", "index.ts"],
+      "files": [
+        "BillingPage.tsx",
+        "BillingPage.types.ts",
+        "index.ts"
+      ],
       "dependencies": [],
-      "peerDependencies": {}
+      "peerDependencies": {
+        "lucide-react": "^0.576.0",
+        "@mdigitalcn/uikit": "*"
+      }
     },
     {
       "name": "general-settings-page",
       "displayName": "General Settings Page",
       "description": "Settings layout with sidebar navigation, section icons, unsaved changes banner, and save action",
       "category": "settings",
-      "tags": ["settings", "preferences", "configuration"],
+      "tags": [
+        "settings",
+        "preferences",
+        "configuration"
+      ],
       "path": "settings/general-settings-page",
-      "files": ["GeneralSettingsPage.tsx", "GeneralSettingsPage.types.ts", "index.ts"],
+      "files": [
+        "GeneralSettingsPage.tsx",
+        "GeneralSettingsPage.types.ts",
+        "index.ts"
+      ],
       "dependencies": [],
-      "peerDependencies": {}
+      "peerDependencies": {
+        "lucide-react": "^0.576.0",
+        "@mdigitalcn/uikit": "*"
+      }
     },
     {
       "name": "notifications-page",
       "displayName": "Notifications Page",
       "description": "Notification preferences with grouped channels, email/push/in-app toggles per type",
       "category": "settings",
-      "tags": ["settings", "notifications", "preferences"],
+      "tags": [
+        "settings",
+        "notifications",
+        "preferences"
+      ],
       "path": "settings/notifications-page",
-      "files": ["NotificationsPage.tsx", "NotificationsPage.types.ts", "index.ts"],
+      "files": [
+        "NotificationsPage.tsx",
+        "NotificationsPage.types.ts",
+        "index.ts"
+      ],
       "dependencies": [],
-      "peerDependencies": {}
+      "peerDependencies": {
+        "lucide-react": "^0.576.0",
+        "@mdigitalcn/uikit": "*"
+      }
     },
     {
       "name": "profile-page",
       "displayName": "Profile Page",
       "description": "User profile editor with proper file input for avatar, personal info form, password change, and danger zone",
       "category": "settings",
-      "tags": ["settings", "profile", "user", "account"],
+      "tags": [
+        "settings",
+        "profile",
+        "user",
+        "account"
+      ],
       "path": "settings/profile-page",
-      "files": ["ProfilePage.tsx", "ProfilePage.types.ts", "index.ts"],
+      "files": [
+        "ProfilePage.tsx",
+        "ProfilePage.types.ts",
+        "index.ts"
+      ],
       "dependencies": [],
-      "peerDependencies": {}
+      "peerDependencies": {
+        "lucide-react": "^0.576.0",
+        "@mdigitalcn/uikit": "*"
+      }
     },
     {
       "name": "team-page",
       "displayName": "Team Page",
       "description": "Team management with member table, pending invites, role selector, and empty state",
       "category": "settings",
-      "tags": ["settings", "team", "members", "roles", "invites"],
+      "tags": [
+        "settings",
+        "team",
+        "members",
+        "roles",
+        "invites"
+      ],
       "path": "settings/team-page",
-      "files": ["TeamPage.tsx", "TeamPage.types.ts", "index.ts"],
+      "files": [
+        "TeamPage.tsx",
+        "TeamPage.types.ts",
+        "index.ts"
+      ],
       "dependencies": [],
-      "peerDependencies": {}
+      "peerDependencies": {
+        "lucide-react": "^0.576.0",
+        "@mdigitalcn/uikit": "*"
+      }
     }
   ]
 }

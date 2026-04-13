@@ -1,13 +1,13 @@
 "use client";
 
 import { Upload, Download, Plus, UserPlus, Trash2, LayoutGrid, List } from "lucide-react";
-import Card, { CardContent } from "@mdigital_ui/ui/card";
-import Input from "@mdigital_ui/ui/input";
-import Button from "@mdigital_ui/ui/button";
-import Badge from "@mdigital_ui/ui/badge";
-import Avatar from "@mdigital_ui/ui/avatar";
-import Toggle from "@mdigital_ui/ui/toggle";
-import { cn } from "@mdigital_ui/ui";
+import Card, { CardContent } from "@mdigitalcn/uikit/card";
+import Input from "@mdigitalcn/uikit/input";
+import Button from "@mdigitalcn/uikit/button";
+import Badge from "@mdigitalcn/uikit/badge";
+import Avatar from "@mdigitalcn/uikit/avatar";
+import Toggle from "@mdigitalcn/uikit/toggle";
+import { cn } from "@mdigitalcn/uikit";
 import type { ContactsPageProps, ContactStatus } from "./ContactsPage.types";
 
 const statusColors: Record<ContactStatus, "success" | "default" | "warning" | "info"> = {

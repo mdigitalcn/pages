@@ -1,10 +1,10 @@
 "use client";
 
 import { ArrowLeft, ArrowRight, Rocket } from "lucide-react";
-import Card, { CardContent } from "@mdigital_ui/ui/card";
-import Button from "@mdigital_ui/ui/button";
-import Progress from "@mdigital_ui/ui/progress";
-import { cn } from "@mdigital_ui/ui";
+import Card, { CardContent } from "@mdigitalcn/uikit/card";
+import Button from "@mdigitalcn/uikit/button";
+import Progress from "@mdigitalcn/uikit/progress";
+import { cn } from "@mdigitalcn/uikit";
 import type { OnboardingPageProps } from "./OnboardingPage.types";
 
 export default function OnboardingPage({

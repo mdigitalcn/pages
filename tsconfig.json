@@ -11,11 +11,7 @@
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true,
-    "paths": {
-      "@mdigital_ui/ui": ["../mdigital_uikit/src"],
-      "@mdigital_ui/ui/*": ["../mdigital_uikit/src/*"]
-    }
+    "noEmit": true
   },
   "include": ["**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules", "storybook-static"]

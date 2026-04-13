@@ -1,10 +1,10 @@
 "use client";
 
 import { Plus } from "lucide-react";
-import Badge from "@mdigital_ui/ui/badge";
-import Button from "@mdigital_ui/ui/button";
-import ScrollArea from "@mdigital_ui/ui/scroll-area";
-import { cn } from "@mdigital_ui/ui";
+import Badge from "@mdigitalcn/uikit/badge";
+import Button from "@mdigitalcn/uikit/button";
+import ScrollArea from "@mdigitalcn/uikit/scroll-area";
+import { cn } from "@mdigitalcn/uikit";
 import type { KanbanPageProps } from "./KanbanPage.types";
 
 export default function KanbanPage({

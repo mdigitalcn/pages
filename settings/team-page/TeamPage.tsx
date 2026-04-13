@@ -1,12 +1,12 @@
 "use client";
 
 import { UserPlus, Send, X, Trash2, Users, Mail } from "lucide-react";
-import Card, { CardContent, CardHeader, CardTitle } from "@mdigital_ui/ui/card";
-import Avatar from "@mdigital_ui/ui/avatar";
-import Badge from "@mdigital_ui/ui/badge";
-import Button from "@mdigital_ui/ui/button";
-import Input from "@mdigital_ui/ui/input";
-import { cn } from "@mdigital_ui/ui";
+import Card, { CardContent, CardHeader, CardTitle } from "@mdigitalcn/uikit/card";
+import Avatar from "@mdigitalcn/uikit/avatar";
+import Badge from "@mdigitalcn/uikit/badge";
+import Button from "@mdigitalcn/uikit/button";
+import Input from "@mdigitalcn/uikit/input";
+import { cn } from "@mdigitalcn/uikit";
 import type { TeamPageProps, MemberStatus } from "./TeamPage.types";
 
 const statusColors: Record<MemberStatus, "success" | "warning" | "default"> = {

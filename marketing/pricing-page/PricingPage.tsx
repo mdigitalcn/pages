@@ -1,10 +1,10 @@
 "use client";
 
 import { Check, Minus } from "lucide-react";
-import Card, { CardContent, CardHeader, CardTitle } from "@mdigital_ui/ui/card";
-import Button from "@mdigital_ui/ui/button";
-import Badge from "@mdigital_ui/ui/badge";
-import { cn } from "@mdigital_ui/ui";
+import Card, { CardContent, CardHeader, CardTitle } from "@mdigitalcn/uikit/card";
+import Button from "@mdigitalcn/uikit/button";
+import Badge from "@mdigitalcn/uikit/badge";
+import { cn } from "@mdigitalcn/uikit";
 import type { PricingPageProps } from "./PricingPage.types";
 
 export default function PricingPage({

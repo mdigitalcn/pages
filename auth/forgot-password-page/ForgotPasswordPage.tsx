@@ -1,11 +1,11 @@
 "use client";
 import { useState } from "react";
 import { Send, ArrowLeft } from "lucide-react";
-import Card, { CardContent } from "@mdigital_ui/ui/card";
-import Input from "@mdigital_ui/ui/input";
-import Button from "@mdigital_ui/ui/button";
-import Link from "@mdigital_ui/ui/link";
-import Notification from "@mdigital_ui/ui/notification";
+import Card, { CardContent } from "@mdigitalcn/uikit/card";
+import Input from "@mdigitalcn/uikit/input";
+import Button from "@mdigitalcn/uikit/button";
+import Link from "@mdigitalcn/uikit/link";
+import Notification from "@mdigitalcn/uikit/notification";
 import type { ForgotPasswordPageProps } from "./ForgotPasswordPage.types";
 
 export default function ForgotPasswordPage({ logo, onSubmit, onBackToLogin, loading, success, error }: ForgotPasswordPageProps) {

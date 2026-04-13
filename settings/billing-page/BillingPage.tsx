@@ -1,12 +1,12 @@
 "use client";
 
 import { CreditCard, Plus, Download, ArrowUpRight, X } from "lucide-react";
-import Card, { CardContent, CardHeader, CardTitle } from "@mdigital_ui/ui/card";
-import Badge from "@mdigital_ui/ui/badge";
-import Button from "@mdigital_ui/ui/button";
-import Progress from "@mdigital_ui/ui/progress";
-import Divider from "@mdigital_ui/ui/divider";
-import { cn } from "@mdigital_ui/ui";
+import Card, { CardContent, CardHeader, CardTitle } from "@mdigitalcn/uikit/card";
+import Badge from "@mdigitalcn/uikit/badge";
+import Button from "@mdigitalcn/uikit/button";
+import Progress from "@mdigitalcn/uikit/progress";
+import Divider from "@mdigitalcn/uikit/divider";
+import { cn } from "@mdigitalcn/uikit";
 import type { BillingPageProps } from "./BillingPage.types";
 
 const invoiceStatusColors: Record<string, "success" | "warning" | "error"> = {

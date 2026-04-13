@@ -1,11 +1,11 @@
 "use client";
 
 import { Plus, Key, ShieldAlert, BookOpen, RefreshCw, Ban } from "lucide-react";
-import Card, { CardContent } from "@mdigital_ui/ui/card";
-import Button from "@mdigital_ui/ui/button";
-import Badge from "@mdigital_ui/ui/badge";
-import Clipboard from "@mdigital_ui/ui/clipboard";
-import { cn } from "@mdigital_ui/ui";
+import Card, { CardContent } from "@mdigitalcn/uikit/card";
+import Button from "@mdigitalcn/uikit/button";
+import Badge from "@mdigitalcn/uikit/badge";
+import Clipboard from "@mdigitalcn/uikit/clipboard";
+import { cn } from "@mdigitalcn/uikit";
 import type { ApiKeysPageProps, ApiKeyStatus } from "./ApiKeysPage.types";
 
 const statusColors: Record<ApiKeyStatus, "success" | "default" | "error"> = {

@@ -1,11 +1,11 @@
 "use client";
 
 import { Download, Eye } from "lucide-react";
-import Card, { CardContent } from "@mdigital_ui/ui/card";
-import Input from "@mdigital_ui/ui/input";
-import Button from "@mdigital_ui/ui/button";
-import Badge from "@mdigital_ui/ui/badge";
-import { cn } from "@mdigital_ui/ui";
+import Card, { CardContent } from "@mdigitalcn/uikit/card";
+import Input from "@mdigitalcn/uikit/input";
+import Button from "@mdigitalcn/uikit/button";
+import Badge from "@mdigitalcn/uikit/badge";
+import { cn } from "@mdigitalcn/uikit";
 import type { OrdersPageProps, OrderStatus } from "./OrdersPage.types";
 
 const statusColors: Record<OrderStatus, "default" | "primary" | "success" | "warning" | "error" | "info"> = {
