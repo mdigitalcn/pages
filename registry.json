@@ -20,8 +20,8 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "lucide-react": "^0.576.0",
-        "@mdigitalcn/uikit": "*"
+        "lucide-react": "^0.577.0",
+        "@mdigitalcn/uikit": "^1.0.13"
       }
     },
     {
@@ -43,8 +43,8 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "lucide-react": "^0.576.0",
-        "@mdigitalcn/uikit": "*"
+        "lucide-react": "^0.577.0",
+        "@mdigitalcn/uikit": "^1.0.13"
       }
     },
     {
@@ -65,8 +65,8 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "lucide-react": "^0.576.0",
-        "@mdigitalcn/uikit": "*"
+        "lucide-react": "^0.577.0",
+        "@mdigitalcn/uikit": "^1.0.13"
       }
     },
     {
@@ -90,8 +90,8 @@
         "react-hook-form": "*",
         "@hookform/resolvers": "*",
         "zod": "*",
-        "lucide-react": "^0.576.0",
-        "@mdigitalcn/uikit": "*"
+        "lucide-react": "^0.577.0",
+        "@mdigitalcn/uikit": "^1.0.13"
       }
     },
     {
@@ -115,8 +115,8 @@
         "react-hook-form": "*",
         "@hookform/resolvers": "*",
         "zod": "*",
-        "lucide-react": "^0.576.0",
-        "@mdigitalcn/uikit": "*"
+        "lucide-react": "^0.577.0",
+        "@mdigitalcn/uikit": "^1.0.13"
       }
     },
     {
@@ -137,8 +137,8 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "lucide-react": "^0.576.0",
-        "@mdigitalcn/uikit": "*"
+        "lucide-react": "^0.577.0",
+        "@mdigitalcn/uikit": "^1.0.13"
       }
     },
     {
@@ -160,8 +160,8 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "lucide-react": "^0.576.0",
-        "@mdigitalcn/uikit": "*"
+        "lucide-react": "^0.577.0",
+        "@mdigitalcn/uikit": "^1.0.13"
       }
     },
     {
@@ -182,8 +182,8 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "lucide-react": "^0.576.0",
-        "@mdigitalcn/uikit": "*"
+        "lucide-react": "^0.577.0",
+        "@mdigitalcn/uikit": "^1.0.13"
       }
     },
     {
@@ -204,8 +204,8 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "lucide-react": "^0.576.0",
-        "@mdigitalcn/uikit": "*"
+        "lucide-react": "^0.577.0",
+        "@mdigitalcn/uikit": "^1.0.13"
       }
     },
     {
@@ -227,8 +227,8 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "lucide-react": "^0.576.0",
-        "@mdigitalcn/uikit": "*"
+        "lucide-react": "^0.577.0",
+        "@mdigitalcn/uikit": "^1.0.13"
       }
     },
     {
@@ -250,8 +250,8 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "lucide-react": "^0.576.0",
-        "@mdigitalcn/uikit": "*"
+        "lucide-react": "^0.577.0",
+        "@mdigitalcn/uikit": "^1.0.13"
       }
     },
     {
@@ -273,8 +273,8 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "lucide-react": "^0.576.0",
-        "@mdigitalcn/uikit": "*"
+        "lucide-react": "^0.577.0",
+        "@mdigitalcn/uikit": "^1.0.13"
       }
     },
     {
@@ -295,8 +295,8 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "lucide-react": "^0.576.0",
-        "@mdigitalcn/uikit": "*"
+        "lucide-react": "^0.577.0",
+        "@mdigitalcn/uikit": "^1.0.13"
       }
     },
     {
@@ -318,8 +318,8 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "lucide-react": "^0.576.0",
-        "@mdigitalcn/uikit": "*"
+        "lucide-react": "^0.577.0",
+        "@mdigitalcn/uikit": "^1.0.13"
       }
     },
     {
@@ -340,8 +340,8 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "lucide-react": "^0.576.0",
-        "@mdigitalcn/uikit": "*"
+        "lucide-react": "^0.577.0",
+        "@mdigitalcn/uikit": "^1.0.13"
       }
     },
     {
@@ -363,8 +363,8 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "lucide-react": "^0.576.0",
-        "@mdigitalcn/uikit": "*"
+        "lucide-react": "^0.577.0",
+        "@mdigitalcn/uikit": "^1.0.13"
       }
     },
     {
@@ -385,8 +385,8 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "lucide-react": "^0.576.0",
-        "@mdigitalcn/uikit": "*"
+        "lucide-react": "^0.577.0",
+        "@mdigitalcn/uikit": "^1.0.13"
       }
     },
     {
@@ -408,8 +408,8 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "lucide-react": "^0.576.0",
-        "@mdigitalcn/uikit": "*"
+        "lucide-react": "^0.577.0",
+        "@mdigitalcn/uikit": "^1.0.13"
       }
     },
     {
@@ -430,8 +430,8 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "lucide-react": "^0.576.0",
-        "@mdigitalcn/uikit": "*"
+        "lucide-react": "^0.577.0",
+        "@mdigitalcn/uikit": "^1.0.13"
       }
     },
     {
@@ -453,8 +453,8 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "lucide-react": "^0.576.0",
-        "@mdigitalcn/uikit": "*"
+        "lucide-react": "^0.577.0",
+        "@mdigitalcn/uikit": "^1.0.13"
       }
     },
     {
@@ -475,8 +475,8 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "lucide-react": "^0.576.0",
-        "@mdigitalcn/uikit": "*"
+        "lucide-react": "^0.577.0",
+        "@mdigitalcn/uikit": "^1.0.13"
       }
     },
     {
@@ -498,8 +498,8 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "lucide-react": "^0.576.0",
-        "@mdigitalcn/uikit": "*"
+        "lucide-react": "^0.577.0",
+        "@mdigitalcn/uikit": "^1.0.13"
       }
     },
     {
@@ -521,8 +521,8 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "lucide-react": "^0.576.0",
-        "@mdigitalcn/uikit": "*"
+        "lucide-react": "^0.577.0",
+        "@mdigitalcn/uikit": "^1.0.13"
       }
     },
     {
@@ -544,8 +544,8 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "lucide-react": "^0.576.0",
-        "@mdigitalcn/uikit": "*"
+        "lucide-react": "^0.577.0",
+        "@mdigitalcn/uikit": "^1.0.13"
       }
     },
     {
@@ -567,8 +567,8 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "lucide-react": "^0.576.0",
-        "@mdigitalcn/uikit": "*"
+        "lucide-react": "^0.577.0",
+        "@mdigitalcn/uikit": "^1.0.13"
       }
     },
     {
@@ -590,8 +590,8 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "lucide-react": "^0.576.0",
-        "@mdigitalcn/uikit": "*"
+        "lucide-react": "^0.577.0",
+        "@mdigitalcn/uikit": "^1.0.13"
       }
     },
     {
@@ -613,8 +613,8 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "lucide-react": "^0.576.0",
-        "@mdigitalcn/uikit": "*"
+        "lucide-react": "^0.577.0",
+        "@mdigitalcn/uikit": "^1.0.13"
       }
     },
     {
@@ -636,8 +636,8 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "lucide-react": "^0.576.0",
-        "@mdigitalcn/uikit": "*"
+        "lucide-react": "^0.577.0",
+        "@mdigitalcn/uikit": "^1.0.13"
       }
     },
     {
@@ -659,8 +659,8 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "lucide-react": "^0.576.0",
-        "@mdigitalcn/uikit": "*"
+        "lucide-react": "^0.577.0",
+        "@mdigitalcn/uikit": "^1.0.13"
       }
     },
     {
@@ -682,8 +682,8 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "lucide-react": "^0.576.0",
-        "@mdigitalcn/uikit": "*"
+        "lucide-react": "^0.577.0",
+        "@mdigitalcn/uikit": "^1.0.13"
       }
     },
     {
@@ -704,8 +704,8 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "lucide-react": "^0.576.0",
-        "@mdigitalcn/uikit": "*"
+        "lucide-react": "^0.577.0",
+        "@mdigitalcn/uikit": "^1.0.13"
       }
     },
     {
@@ -726,8 +726,8 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "lucide-react": "^0.576.0",
-        "@mdigitalcn/uikit": "*"
+        "lucide-react": "^0.577.0",
+        "@mdigitalcn/uikit": "^1.0.13"
       }
     },
     {
@@ -749,8 +749,8 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "lucide-react": "^0.576.0",
-        "@mdigitalcn/uikit": "*"
+        "lucide-react": "^0.577.0",
+        "@mdigitalcn/uikit": "^1.0.13"
       }
     },
     {
@@ -773,8 +773,8 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "lucide-react": "^0.576.0",
-        "@mdigitalcn/uikit": "*"
+        "lucide-react": "^0.577.0",
+        "@mdigitalcn/uikit": "^1.0.13"
       }
     }
   ]
